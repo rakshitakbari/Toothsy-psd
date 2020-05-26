@@ -1,0 +1,19 @@
+.block-heading{
+    span{
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: .1em;
+        font-weight: bold;
+        color: #b8b8b8;
+    }
+    h2{
+        font-size: 48px;
+        color: $theme-color;
+        font-weight: 500;
+        line-height: 1.2;
+        margin-bottom: 15px;
+        @include media-breakpoint-down(sm){
+            font-size: 30px;
+        }
+    }
+}

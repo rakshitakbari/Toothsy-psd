@@ -1,0 +1,23 @@
+#about{
+    background: linear-gradient(to bottom, #51eaea 0%, #499bea 100%);
+    padding: 60px 0;
+    margin-bottom: 80px;
+    .block-counter{
+        text-align: center;
+        .number {
+            color: $white;
+            font-size: 4rem;
+            position: relative;
+            padding-bottom: 20px;
+        }
+        .caption {
+            font-size: 14px;
+            color: $white;
+            letter-spacing: .05em;
+        }
+        .number, .caption{
+            display: block;
+            line-height: 1;
+        }
+    }
+}
